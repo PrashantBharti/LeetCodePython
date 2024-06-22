@@ -1,9 +1,10 @@
-from lc_3_longest_substring_without_repeating_characters.solution import Solution
+from lc_4_median_of_sorted_arrays.solution import Solution
 
 def main():
-    input = 'abba'
+    nums1 = [3]
+    nums2 = [-2, -1]
     
-    ans = sol.lengthOfLongestSubstring(input)
+    ans = sol.findMedianSortedArrays(nums1, nums2)
     print(ans)
 
 if __name__ == '__main__':
