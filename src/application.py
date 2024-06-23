@@ -1,10 +1,9 @@
-from lc_4_median_of_sorted_arrays.solution import Solution
+from lc_6_zigzag_conversion.solution import Solution
 
 def main():
-    nums1 = [3]
-    nums2 = [-2, -1]
+    input = "paypalishiring"
     
-    ans = sol.findMedianSortedArrays(nums1, nums2)
+    ans = sol.convert(input, 4)
     print(ans)
 
 if __name__ == '__main__':
