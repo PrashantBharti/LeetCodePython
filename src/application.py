@@ -1,9 +1,9 @@
-from lc_6_zigzag_conversion.solution import Solution
+from lc_7_reverse_integer.solution import Solution
 
 def main():
-    input = "paypalishiring"
+    input = -1563847412
     
-    ans = sol.convert(input, 4)
+    ans = sol.reverse(input)
     print(ans)
 
 if __name__ == '__main__':
