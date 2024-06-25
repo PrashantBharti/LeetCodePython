@@ -1,7 +1,7 @@
 from lc_9_palindrome_number.solution import Solution
 
 def main():
-    input = -121
+    input = 1231
     
     ans = sol.isPalindrome(input)
     print(ans)
