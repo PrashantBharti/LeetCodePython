@@ -1,9 +1,9 @@
-from lc_8_string_to_integer.solution import Solution
+from lc_9_palindrome_number.solution import Solution
 
 def main():
-    input = "  -214748364946587879798"
+    input = -121
     
-    ans = sol.myAtoi(input)
+    ans = sol.isPalindrome(input)
     print(ans)
 
 if __name__ == '__main__':
