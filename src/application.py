@@ -1,9 +1,10 @@
-from lc_9_palindrome_number.solution import Solution
+from lc_10_regular_expression_matching.solution import Solution
 
 def main():
-    input = 1231
+    s = "aa"
+    p = "a."
     
-    ans = sol.isPalindrome(input)
+    ans = sol.isMatch(s, p)
     print(ans)
 
 if __name__ == '__main__':
