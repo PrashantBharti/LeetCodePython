@@ -1,10 +1,9 @@
-from lc_10_regular_expression_matching.solution import Solution
+from lc_11_container_with_most_water.solution import Solution
 
 def main():
-    s = "aa"
-    p = "a."
+    heights = [1 ,2 , 3, 4]
     
-    ans = sol.isMatch(s, p)
+    ans = sol.maxArea(heights)
     print(ans)
 
 if __name__ == '__main__':
