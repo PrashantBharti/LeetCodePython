@@ -7,6 +7,6 @@ class Solution:
         for i in range(len(sym)):
             while num >= val[i]:
                 num -= val[i]
-                result = result.join(sym[i])
+                result = ''.join([result, sym[i]])
                 
         return result
