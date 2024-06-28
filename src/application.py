@@ -1,9 +1,9 @@
-from lc_12_integer_to_roman.solution import Solution
+from lc_13_roman_to_integer.solution import Solution
 
 def main():
-    num = 19
+    s = "III"
     
-    ans = sol.intToRoman(num)
+    ans = sol.romanToInt(s)
     print(ans)
 
 if __name__ == '__main__':
