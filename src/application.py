@@ -1,9 +1,9 @@
-from lc_13_roman_to_integer.solution import Solution
+from lc_14_longest_common_prefix.solution import Solution
 
 def main():
-    s = "III"
+    strs = ['test', 'teat', 't']
     
-    ans = sol.romanToInt(s)
+    ans = sol.longestCommonPrefix(strs)
     print(ans)
 
 if __name__ == '__main__':
