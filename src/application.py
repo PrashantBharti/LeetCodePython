@@ -1,11 +1,10 @@
-from lc_16_3_sum_closest.solution import Solution
+from lc_17_letter_combinations_of_a_phone_number.solution import Solution
 
 def main():
-    nums = [-1,2,1,-4]
-    target = 1
+    digits = "223"
     
-    ans = sol.threeSumClosest(nums, target)
-    print(ans)
+    combs = sol.letterCombinations(digits)
+    print(combs)
 
 if __name__ == '__main__':
     sol = Solution()
