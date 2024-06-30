@@ -1,9 +1,9 @@
-from lc_14_longest_common_prefix.solution import Solution
+from lc_15_3_sum.solution import Solution
 
 def main():
-    strs = ['test', 'teat', 't']
+    nums = [-1,0,1,2,-1,-4]
     
-    ans = sol.longestCommonPrefix(strs)
+    ans = sol.threeSum(nums)
     print(ans)
 
 if __name__ == '__main__':
