@@ -1,9 +1,10 @@
-from lc_15_3_sum.solution import Solution
+from lc_16_3_sum_closest.solution import Solution
 
 def main():
-    nums = [-1,0,1,2,-1,-4]
+    nums = [-1,2,1,-4]
+    target = 1
     
-    ans = sol.threeSum(nums)
+    ans = sol.threeSumClosest(nums, target)
     print(ans)
 
 if __name__ == '__main__':
