@@ -1,10 +1,11 @@
-from lc_17_letter_combinations_of_a_phone_number.solution import Solution
+from lc_18_4_sum.solution import Solution
 
 def main():
-    digits = "223"
+    nums = [1000000000,1000000000, 1000000000, 1000000000]
+    target = -294967296
     
-    combs = sol.letterCombinations(digits)
-    print(combs)
+    res = sol.fourSum(nums, target)
+    print(res)
 
 if __name__ == '__main__':
     sol = Solution()
