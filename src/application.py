@@ -1,20 +1,10 @@
-from lc_23_merge_k_sorted_lists.listnode import ListNode
-from lc_23_merge_k_sorted_lists.solution import Solution
+from lc_24_swap_nodes_in_pairs.listnode import ListNode
+from lc_24_swap_nodes_in_pairs.solution import Solution
 
 def main():
     n1 = ListNode(1)
-    n1.next = ListNode(4)
-    n1.next.next = ListNode(5)
-    
-    n2 = ListNode(2)
-    n2.next = ListNode(3)
-    n2.next.next = ListNode(6)
-    
-    n3 = ListNode(3)
-    n3.next = ListNode(4)
-    
-    lists = [n1, n2, n3]
-    res = sol.mergeKLists(lists)
+
+    res = sol.swapPairs(n1)
     while res:
         print(res.val)
         res = res.next
