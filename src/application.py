@@ -1,10 +1,10 @@
-from lc_27_remove_element.solution import Solution
+from lc_28_index_of_first_occurrence.solution import Solution
 
 def main():
-    nums = [0,1,2,2,3,0,4,2]
+    s1 = "baaa"
+    s2 = "a"
     
-    res = sol.removeElement(nums, 2)
-    print(nums)
+    res = sol.strStr(s1, s2)
     print(res)
 
 if __name__ == '__main__':
