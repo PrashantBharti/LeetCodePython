@@ -1,6 +1,6 @@
 class Solution:
     def strStr(self, haystack, needle):
-        if len(needle)==0:
+        if not needle:
             return 0
         
         for i in range(len(haystack) - len(needle) + 1):
