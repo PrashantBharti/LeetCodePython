@@ -1,9 +1,9 @@
-from lc_26_remove_duplicates_from_sorted_array.solution import Solution
+from lc_27_remove_element.solution import Solution
 
 def main():
-    nums = [1, 2, 2, 3, 3, 4, 5]
+    nums = [0,1,2,2,3,0,4,2]
     
-    res = sol.removeDuplicates(nums)
+    res = sol.removeElement(nums, 2)
     print(nums)
     print(res)
 
