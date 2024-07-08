@@ -1,10 +1,7 @@
-from lc_28_index_of_first_occurrence.solution import Solution
+from lc_29_divide_two_integers.solution import Solution
 
-def main():
-    s1 = "baaa"
-    s2 = "a"
-    
-    res = sol.strStr(s1, s2)
+def main():    
+    res = sol.divide(10, 3)
     print(res)
 
 if __name__ == '__main__':
