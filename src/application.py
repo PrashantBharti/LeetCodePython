@@ -1,9 +1,9 @@
-from lc_31_next_permutation.solution import Solution
+from lc_32_longest_valid_parentheses.solution import Solution
 
 def main():
-    nums = [1, 2, 2, 3]
-    sol.nextPermutation(nums)
-    print(nums)
+    s = "((())))()"
+    res = sol.longestValidParentheses(s)
+    print(res)
 
 if __name__ == '__main__':
     sol = Solution()
