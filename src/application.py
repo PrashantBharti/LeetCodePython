@@ -1,9 +1,9 @@
-from lc_33_search_in_rotated_sorted_array.solution import Solution
+from lc_34_search_first_last_position_in_sorted_array.solution import Solution
 
 def main():
-    nums = [3, 1]
-    target = 1
-    res = sol.search(nums, target)
+    nums = [5,7,7,8,8,10]
+    target = 10
+    res = sol.searchRange(None, target)
     print(res)
 
 if __name__ == '__main__':
