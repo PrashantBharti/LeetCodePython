@@ -1,4 +1,4 @@
-from lc_36_valid_sudoku.solution import Solution
+from lc_37_sudoku_solver.solution import Solution
 
 def main():
     board = [
@@ -13,8 +13,9 @@ def main():
                ,[".",".",".",".","8",".",".","7","9"]
             ]
     
-    res = sol.isValidSudoku(board)
-    print(res)
+    res = sol.solveSudoku(board)
+    for row in res:
+        print(row)
 
 if __name__ == '__main__':
     sol = Solution()
